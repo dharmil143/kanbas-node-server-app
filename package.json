@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/dharmil143/kanbas-node-server-app#readme",
   "dependencies": {
+    "cors":"2.8.5",
     "axios": "^1.6.1",
     "express": "^4.18.2"
   }
