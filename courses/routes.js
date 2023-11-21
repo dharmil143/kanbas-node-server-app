@@ -35,7 +35,7 @@ function CourseRoutes(app) {
     Database.courses.push(course);
     res.send(course);
   });
-
+ 
   app.get("/api/courses", (req, res) => {
     const courses = Database.courses;
     res.send(courses);
